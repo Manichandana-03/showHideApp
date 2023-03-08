@@ -1,0 +1,73 @@
+.app {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.heading {
+  color: white;
+}
+.margin-top {
+  margin-top: 50px;
+}
+.margin-bottom {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .margin-left {
+    margin-left: 90px;
+  }
+  .margin-right {
+    margin-right: 90px;
+  }
+  .margin-top {
+    margin-top: 0px;
+  }
+  .margin-bottom {
+    margin-bottom: 0px;
+  }
+}
+
+.button {
+  background-color: #ffffff;
+  color: #dd1264;
+  border: 0px;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-bottom: 48px;
+}
